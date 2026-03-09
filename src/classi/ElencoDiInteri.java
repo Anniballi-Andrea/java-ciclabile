@@ -22,6 +22,7 @@ public class ElencoDiInteri {
     }
 
     public int getElementoSuccessivo() {
+        
         this.count = count + 1;
 
         return this.elenco[count];
