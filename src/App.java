@@ -56,10 +56,9 @@ public class App {
 
         secondoElenco.addNumber(94);
 
-        int i = 0;
         while (!secondoElenco.hasAncoraElementi()) {
             System.out.println(secondoElenco.getElementoSuccessivo());
-            i++;
+
         }
 
     }
